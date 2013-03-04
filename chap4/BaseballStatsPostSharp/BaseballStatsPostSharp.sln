@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseballStatsPostSharp", "BaseballStatsPostSharp\BaseballStatsPostSharp.csproj", "{8946991C-82A6-4F85-A8CF-C23A46A7D690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8F99B7A7-3183-404A-8D38-F686B5EB9A72}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8946991C-82A6-4F85-A8CF-C23A46A7D690}.Debug|x86.ActiveCfg = Debug|x86
+		{8946991C-82A6-4F85-A8CF-C23A46A7D690}.Debug|x86.Build.0 = Debug|x86
+		{8946991C-82A6-4F85-A8CF-C23A46A7D690}.Release|x86.ActiveCfg = Release|x86
+		{8946991C-82A6-4F85-A8CF-C23A46A7D690}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

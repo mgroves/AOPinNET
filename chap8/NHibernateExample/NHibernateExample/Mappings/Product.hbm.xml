@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                  assembly="NHibernateExample"
+                  namespace="NHibernateExample.Entities">
+
+    <class name="Book" table="products">
+        <id name="Id">
+            <generator class="guid" />
+        </id>
+
+        <property name="Name" />
+        <property name="Category" />
+        <property name="Price" />
+    </class>
+
+</hibernate-mapping>

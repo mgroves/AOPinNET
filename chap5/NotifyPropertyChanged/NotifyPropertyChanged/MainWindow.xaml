@@ -1,0 +1,19 @@
+﻿<Window x:Class="NotifyPropertyChanged.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="130" Width="525">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <Label Content="First Name:" Width="100" />
+            <TextBox Width="200" Text="{Binding Path=FirstName, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Last Name:" Width="100" />
+            <TextBox Width="200" Text="{Binding Path=LastName, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Full Name:" Width="100" />
+            <Label Width="200" Content="{Binding Path=FullName}" />
+        </StackPanel>
+    </StackPanel>
+</Window>
